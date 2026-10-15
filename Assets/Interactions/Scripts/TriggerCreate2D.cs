@@ -11,7 +11,7 @@ public class TriggerCreate2D : MonoBehaviour
     {
         if (other.gameObject.tag == TagDuPlayer)
         {
-            Instantiate(ObjetACreer, EndroitOuSpawner.transform.position, EndroitOuSpawner.transform.rotation);
+            Instantiate(ObjetACreer, EndroitOuSpawner.transform.position, ObjetACreer.transform.rotation);
         }
     }
 }
