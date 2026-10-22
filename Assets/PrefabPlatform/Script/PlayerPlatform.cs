@@ -10,6 +10,7 @@ public class PlayerPlatform : MonoBehaviour
     public float airAcceleration = 10f;
     public float groundDeceleration = 25f;
     public float airDeceleration = 15f;
+    private bool flip = true;
 
     [Header("Jump Settings")]
     public float jumpForce = 16f;
@@ -86,6 +87,7 @@ public class PlayerPlatform : MonoBehaviour
 
         // Apply better gravity for less floaty feel
         ApplyBetterGravity();
+
     }
 
     void Move()
@@ -166,9 +168,14 @@ public class PlayerPlatform : MonoBehaviour
         isFacingRight = !isFacingRight;
 
         // Multiply the player's x local scale by -1 to flip
-        Vector3 theScale = transform.localScale;
+        if(flip){
+            Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+        }
+    }
+    public void setFlip(bool flip1){
+        this.flip = flip1;
     }
 
     void UpdateAnimations()
@@ -192,4 +199,5 @@ public class PlayerPlatform : MonoBehaviour
             Gizmos.DrawWireSphere(groundCheck.position + Vector3.down * groundCheckDistance, 0.02f);
         }
     }
+    
 }

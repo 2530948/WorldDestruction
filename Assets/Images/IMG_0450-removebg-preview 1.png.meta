@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 008a2c39d1d954033ae949fd660fde00
+guid: 5795588c4cbd648229c015e0c161d276
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4948955322930292865
-    second: Traffic cone_0
+      213: -4234490564656613544
+    second: IMG_0450-removebg-preview 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Traffic cone_0
+      name: IMG_0450-removebg-preview 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 706
-        height: 733
+        width: 812
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 188e98045a83ea440800000000000000
-      internalID: 4948955322930292865
+      spriteID: 85736e844411c35c0800000000000000
+      internalID: -4234490564656613544
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Traffic cone_0: 4948955322930292865
+      IMG_0450-removebg-preview 1_0: -4234490564656613544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
