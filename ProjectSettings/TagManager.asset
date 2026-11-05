@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Tree
   - Tractor
+  - Destroyer
   layers:
   - Default
   - TransparentFX
